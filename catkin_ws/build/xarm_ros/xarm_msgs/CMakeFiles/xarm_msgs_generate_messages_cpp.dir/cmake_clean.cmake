@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/CIOState.h"
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/Call.h"
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/ClearErr.h"
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/ConfigToolModbus.h"
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/FtCaliLoad.h"
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/FtIdenLoad.h"
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/GetAnalogIO.h"
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/GetControllerDigitalIO.h"
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/GetDigitalIO.h"
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/GetErr.h"
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/GetFloat32List.h"
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/GetInt32.h"
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/GetSetModbusData.h"
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/GripperConfig.h"
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/GripperMove.h"
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/GripperState.h"
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/IOState.h"
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/Move.h"
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/MoveAxisAngle.h"
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/MoveVelo.h"
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/MoveVelocity.h"
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/PlayTraj.h"
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/RobotMsg.h"
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/SetAxis.h"
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/SetControllerAnalogIO.h"
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/SetDigitalIO.h"
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/SetFloat32.h"
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/SetInt16.h"
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/SetLoad.h"
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/SetModbusTimeout.h"
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/SetMultipleInts.h"
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/SetString.h"
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/SetToolModbus.h"
+  "/home/ruslan/catkin_ws/devel/include/xarm_msgs/TCPOffset.h"
+  "CMakeFiles/xarm_msgs_generate_messages_cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/xarm_msgs_generate_messages_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
