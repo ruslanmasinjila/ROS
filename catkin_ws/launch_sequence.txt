@@ -1,9 +1,9 @@
 
 ====================================================
 Load robot model in Gazebo environment:
-roslaunch xarm_gazebo lite6_beside_table.launch [add_gripper:=true] [add_vacuum_gripper:=true] 
+roslaunch xarm_gazebo lite6_beside_table.launch [add_gripper:=true]
 ====================================================
 Moveit! Graphical control interface + Rviz visual simulation:
-roslaunch uf_robot_moveit_config lite6_moveit_fake.launch [add_gripper:=true] [add_vacuum_gripper:=true]
+roslaunch uf_robot_moveit_config lite6_moveit_fake.launch [add_gripper:=true]
 
 
